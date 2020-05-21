@@ -1,0 +1,21 @@
+{
+  "name": "elasticsearch_and_sql",
+  "version": "1.0.0",
+  "description": "Open Distro and Elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Open-Distro",
+    "ElasticSearch",
+    "SQL",
+    "JSON"
+  ],
+  "author": "Alexander Nnakwue",
+  "license": "MIT",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.6.1",
+    "dotenv": "^8.2.0"
+  }
+}
