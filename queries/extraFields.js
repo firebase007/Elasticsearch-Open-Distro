@@ -2,14 +2,14 @@
 
 //  query 
 
-curl -H 'Content-Type: application/json' -X POST localhost:9200/_opendistro/_sql -d '{"query" : "SELECT Origin, Horsepower, Miles_per_Gallon FROM cars LIMIT 5","filter" : {"range" :{"Weight_in_lbs" : {"lt" : 4000}}}}'
+`curl -H 'Content-Type: application/json' -X POST localhost:9200/_opendistro/_sql -d '{"query" : "SELECT Origin, Horsepower, Miles_per_Gallon FROM cars LIMIT 5","filter" : {"range" :{"Weight_in_lbs" : {"lt" : 4000}}}}'`
 
 
 
 // json
 
 
-{
+```{
     "took": 6,
     "timed_out": false,
     "_shards": {
@@ -76,4 +76,4 @@ curl -H 'Content-Type: application/json' -X POST localhost:9200/_opendistro/_sql
                     }
             }]
     }
-}
+}```
