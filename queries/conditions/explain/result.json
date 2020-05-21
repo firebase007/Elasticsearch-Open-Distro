@@ -1,0 +1,32 @@
+
+{
+    "from": 0,
+    "size": 5,
+    "query": {
+            "bool": {
+                    "filter": [{
+                            "bool": {
+                                    "must": [{
+                                            "range": {
+                                                    "Cylinders": {
+                                                      "from": 4,
+                                                      "to": null,
+                                                      "include_lower": false,
+                                                      "include_upper": true,
+                                                      "boost": 1.0
+                                                }
+                                          }
+                                    }],
+                                    "adjust_pure_negative": true,
+                                    "boost": 1.0
+                            }
+                    }],
+                    "adjust_pure_negative": true,
+                    "boost": 1.0
+            }
+    },
+    "_source": {
+            "includes": ["Origin", "Horsepower"],
+            "excludes": []
+    }
+}

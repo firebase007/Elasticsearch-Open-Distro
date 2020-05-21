@@ -1,0 +1,1 @@
+```curl -XPOST localhost:9200/_opendistro/_sql -d '{"query": "SELECT count(Miles_per_Gallon) FROM cars"}' -H 'Content-Type: application/json'```

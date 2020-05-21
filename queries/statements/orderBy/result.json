@@ -1,0 +1,104 @@
+
+{
+    "took": 24,
+    "timed_out": false,
+    "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+    },
+    "hits": {
+            "total": {
+                    "value": 406,
+                    "relation": "eq"
+            },
+            "max_score": null,
+            "hits": [{
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "0",
+                    "_score": null,
+                    "_source": {
+                            "Name": "chevrolet chevelle malibu",
+                            "Miles_per_Gallon": 18,
+                            "Cylinders": 8,
+                            "Displacement": 307,
+                            "Horsepower": 130,
+                            "Weight_in_lbs": 3504,
+                            "Acceleration": 12,
+                            "Year": "1970-01-01",
+                            "Origin": "USA"
+                    },
+                    "sort": ["0"]
+            }, {
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "1",
+                    "_score": null,
+                    "_source": {
+                            "Name": "buick skylark 320",
+                            "Miles_per_Gallon": 15,
+                            "Cylinders": 8,
+                            "Displacement": 350,
+                            "Horsepower": 165,
+                            "Weight_in_lbs": 3693,
+                            "Acceleration": 11.5,
+                            "Year": "1970-01-01",
+                            "Origin": "USA"
+                    },
+                    "sort": ["1"]
+            }, {
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "10",
+                    "_score": null,
+                    "_source": {
+                            "Name": "citroen ds-21 pallas",
+                            "Miles_per_Gallon": null,
+                            "Cylinders": 4,
+                            "Displacement": 133,
+                            "Horsepower": 115,
+                            "Weight_in_lbs": 3090,
+                            "Acceleration": 17.5,
+                            "Year": "1970-01-01",
+                            "Origin": "Europe"
+                    },
+                    "sort": ["10"]
+            }, {
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "100",
+                    "_score": null,
+                    "_source": {
+                            "Name": "plymouth fury gran sedan",
+                            "Miles_per_Gallon": 14,
+                            "Cylinders": 8,
+                            "Displacement": 318,
+                            "Horsepower": 150,
+                            "Weight_in_lbs": 4237,
+                            "Acceleration": 14.5,
+                            "Year": "1973-01-01",
+                            "Origin": "USA"
+                    },
+                    "sort": ["100"]
+            }, {
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "101",
+                    "_score": null,
+                    "_source": {
+                            "Name": "chrysler new yorker brougham",
+                            "Miles_per_Gallon": 13,
+                            "Cylinders": 8,
+                            "Displacement": 440,
+                            "Horsepower": 215,
+                            "Weight_in_lbs": 4735,
+                            "Acceleration": 11,
+                            "Year": "1973-01-01",
+                            "Origin": "USA"
+                    },
+                    "sort": ["101"]
+            }]
+    }
+}
