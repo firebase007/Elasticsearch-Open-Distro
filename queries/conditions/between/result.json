@@ -1,0 +1,101 @@
+
+
+
+{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+    },
+    "hits": {
+            "total": {
+                    "value": 129,
+                    "relation": "eq"
+            },
+            "max_score": 0.0,
+            "hits": [{
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "182",
+                    "_score": 0.0,
+                    "_source": {
+                            "Name": "volkswagen rabbit",
+                            "Miles_per_Gallon": 29,
+                            "Cylinders": 4,
+                            "Displacement": 90,
+                            "Horsepower": 70,
+                            "Weight_in_lbs": 1937,
+                            "Acceleration": 14,
+                            "Year": "1975-01-01",
+                            "Origin": "Europe"
+                    }
+            }, {
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "57",
+                    "_score": 0.0,
+                    "_source": {
+                            "Name": "opel 1900",
+                            "Miles_per_Gallon": 28,
+                            "Cylinders": 4,
+                            "Displacement": 116,
+                            "Horsepower": 90,
+                            "Weight_in_lbs": 2123,
+                            "Acceleration": 14,
+                            "Year": "1971-01-01",
+                            "Origin": "Europe"
+                    }
+            }, {
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "227",
+                    "_score": 0.0,
+                    "_source": {
+                            "Name": "datsun f-10 hatchback",
+                            "Miles_per_Gallon": 33.5,
+                            "Cylinders": 4,
+                            "Displacement": 85,
+                            "Horsepower": 70,
+                            "Weight_in_lbs": 1945,
+                            "Acceleration": 16.8,
+                            "Year": "1977-01-01",
+                            "Origin": "Japan"
+                    }
+            }, {
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "68",
+                    "_score": 0.0,
+                    "_source": {
+                            "Name": "ford pinto runabout",
+                            "Miles_per_Gallon": 21,
+                            "Cylinders": 4,
+                            "Displacement": 122,
+                            "Horsepower": 86,
+                            "Weight_in_lbs": 2226,
+                            "Acceleration": 16.5,
+                            "Year": "1972-01-01",
+                            "Origin": "USA"
+                    }
+            }, {
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "213",
+                    "_score": 0.0,
+                    "_source": {
+                            "Name": "ford pinto",
+                            "Miles_per_Gallon": 26.5,
+                            "Cylinders": 4,
+                            "Displacement": 140,
+                            "Horsepower": 72,
+                            "Weight_in_lbs": 2565,
+                            "Acceleration": 13.6,
+                            "Year": "1976-01-01",
+                            "Origin": "USA"
+                    }
+            }]
+    }
+}

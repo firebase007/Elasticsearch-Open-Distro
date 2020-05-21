@@ -1,0 +1,1 @@
+curl -XPOST localhost:9200/_opendistro/_sql -d '{"query": "SELECT * FROM cars WHERE ['Acceleration']='20' LIMIT 5"}' -H 'Content-Type: application/json'

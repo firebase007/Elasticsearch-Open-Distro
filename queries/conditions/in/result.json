@@ -1,0 +1,98 @@
+
+{
+    "took": 830,
+    "timed_out": false,
+    "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+    },
+    "hits": {
+            "total": {
+                    "value": 333,
+                    "relation": "eq"
+            },
+            "max_score": 0.0,
+            "hits": [{
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "113",
+                    "_score": 0.0,
+                    "_source": {
+                            "Name": "oldsmobile vista cruiser",
+                            "Miles_per_Gallon": 12,
+                            "Cylinders": 8,
+                            "Displacement": 350,
+                            "Horsepower": 180,
+                            "Weight_in_lbs": 4499,
+                            "Acceleration": 12.5,
+                            "Year": "1973-01-01",
+                            "Origin": "USA"
+                    }
+            }, {
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "128",
+                    "_score": 0.0,
+                    "_source": {
+                            "Name": "dodge dart custom",
+                            "Miles_per_Gallon": 15,
+                            "Cylinders": 8,
+                            "Displacement": 318,
+                            "Horsepower": 150,
+                            "Weight_in_lbs": 3399,
+                            "Acceleration": 11,
+                            "Year": "1973-01-01",
+                            "Origin": "USA"
+                    }
+            }, {
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "156",
+                    "_score": 0.0,
+                    "_source": {
+                            "Name": "honda civic",
+                            "Miles_per_Gallon": 24,
+                            "Cylinders": 4,
+                            "Displacement": 120,
+                            "Horsepower": 97,
+                            "Weight_in_lbs": 2489,
+                            "Acceleration": 15,
+                            "Year": "1974-01-01",
+                            "Origin": "Japan"
+                    }
+            }, {
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "170",
+                    "_score": 0.0,
+                    "_source": {
+                            "Name": "plymouth fury",
+                            "Miles_per_Gallon": 18,
+                            "Cylinders": 6,
+                            "Displacement": 225,
+                            "Horsepower": 95,
+                            "Weight_in_lbs": 3785,
+                            "Acceleration": 19,
+                            "Year": "1975-01-01",
+                            "Origin": "USA"
+                    }
+            }, {
+                    "_index": "cars",
+                    "_type": "_doc",
+                    "_id": "93",
+                    "_score": 0.0,
+                    "_source": {
+                            "Name": "amc matador",
+                            "Miles_per_Gallon": 14,
+                            "Cylinders": 8,
+                            "Displacement": 304,
+                            "Horsepower": 150,
+                            "Weight_in_lbs": 3672,
+                            "Acceleration": 11.5,
+                            "Year": "1973-01-01",
+                            "Origin": "USA"
+                    }
+            }]
+    }
